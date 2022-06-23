@@ -1,0 +1,17 @@
+getbootstrap.com/docs/4.5
+
+Go to COMPONENTS then CAROUSEL and copy the code for the one you need.
+
+PROJECT IDEAS:
+  
+	simple Biography Website
+	Contact Page with Form
+	Registration Form
+	Product Landing Page
+	Restaurant Menu Page
+	Fitness Club Page
+	Portfolio Page
+	CRM View
+	App Page
+	Beauty Products Store
+	E-book Store

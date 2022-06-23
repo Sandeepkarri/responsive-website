@@ -1,0 +1,150 @@
+CSS SELECTORS & INHERITANCE 
+
+CSS selectors : used to select HTML elements which we want to style.
+
+Types:
+
+>>> Simple Selectors:
+   		>> Class Selector
+   		>> ID Selector
+   		>> Type(tag name)Selector
+   		   Universal Selector
+   		   Attribute Selector
+   		   Pseudo-class
+>>> Compound Selectors
+>>> Complex Selectors
+				many more ...
+
+
+
+ID selector : The CSS ID Selector selects an HTML element based on its id attribute value
+It consists of a hash(#), followed by the ID of the element.
+
+Note:There should be only one HTML element with a given id in the entire document
+
+      #idname{
+      }
+        property1:value1;
+        property2:value2;
+
+Type(tag name)Selector:
+
+Selects all the HTML elements within the document based on their tag names(h1,p,div,etc.)
+
+h1{
+	font-size:28px;
+	color:orange;
+  	font-weight:600; 
+}
+
+p {
+	color:blue;
+}
+
+>>> In CSS,the styles that are applied to HTML elements depend on three fundamental concepts
+ 	Inheritance
+      Specificity
+ 	Cascade
+ 
+Inheritance: Some of the CSS Property values set on the Parent Elements are received
+   		(inherited)by their Child Elements 
+
+CSS properties can be categorized into two types:
+							Inherited properties
+							Non-inherited properties
+
+>>> Inherited Properties:
+
+	If the CSS properties applied to the parent element are inherited by the child elements, then they are called Inherited properties.
+
+Some of the CSS Inherited Properties are:-
+
+	Text related Properties
+
+		font-family
+		font-style
+		font-weight
+		text-align
+
+	List related Properties
+	
+		list-style-type
+		color property and many more.
+
+>>> Non-inherited Properties :
+
+	If the CSS properties applied to the parent element are not inherited by the child elements, then they are called Non-inherited properties.
+
+Some of the CSS Non-inherited properties are:
+
+	CSS Box Properties
+
+		width
+		height
+		margin
+		padding
+		border-style
+		border-width
+		border-color
+		border-radius
+
+	CSS Background Properties
+
+		background-image
+		background-color
+		background-size
+		text-decorationand many more. 
+
+..........................................................................................
+
+
+CSS SPECIFICITY & CASCADE :
+
+>> SPECIFICITY : It is a means by which browser decide the most relevent css property values for an element.       
+
+ A Class Selector is more specific compared to Type (tag name) Selector.
+
+ It selects only the elements that have a specific class attribute value in a HTML 
+ document.
+
+ ID selector is even more specific than class selector.
+ 
+ It selects only a single HTML Element in the document since we provide unique IDs to
+ the HTML Elements.
+
+INLINE STYLES : Directly applying styles to HTML element.
+
+ <tag style = "property : value1 ; property : value1 ; ....">
+
+ It has the highest specificity among all others.
+
+ Styles applied using inline styles will owerwrite any other styles specified using 
+ selectors.
+
+ Using Inline Styles is not recommended because
+
+	Inline Styles are not reusable.
+	Writing HTML and CSS separately increases code readability.
+
+CSS Cascade:
+
+ The source order of CSS Rulesets matters. When two CSS Rulesets have equal specificity, 
+ the one that comes last in the CSS is applied.
+
+ The styles that apply to the HTML Elements are not determined by the order the classes 
+ defined in the HTML class attribute, but instead the order in which they appear in the 
+ CSS.
+
+The !important exception :
+
+ It is a special piece of CSS used to make a particular CSS property and value the most 
+ specific thing, irrespective of source order and specificity.
+
+ The only way to override a !important property value is to include another !important 
+ property value. The added property value should either come later in the order or should 
+ be of higher specificity.
+
+ Always look for a way to use specificity before even considering !important.
+
+ Only use !important when you want to override foreign CSS (from external libraries, like 
+ Bootstrap).

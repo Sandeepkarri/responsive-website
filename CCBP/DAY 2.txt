@@ -1,0 +1,70 @@
+BACKEND:  
+any information to be stored is data.
+
+DATA has size, occupies space as any physical object occupy space.
+
+HOW TO MEASURE SIZE AND SPACE OCCUPIED BY DATA ?
+
+measured in the units of byte and bytes.
+
+1 BYTE = 8 BITS
+1 KBYTE = 1024 BYTES
+
+WHERE IS THE DATA STORED? HOW IS IT UPDATED?
+backend
+
+Database: makes it easy to deal with data(information)
+		-store
+		-organise
+		-access
+		-update etc.,
+
+USER INTERFACE: user interacts with software through user interface.
+
+API(APPLICATION PROGRAMMING INTERFACE): application interacts with each other through API.
+ 
+> client communicates with server through API 
+
+CLOUD:
+	Refers to
+		> Servers that are accessed over the internet
+		> The softwares that run on those servers
+
+On-demand availability of server system, of any size, over the internet at the click of a button from your computer
+
+--------------------------------------------------------------------------
+URL: Uniform Resource Locator
+
+
+browser understands HTML,CSS,JS
+
+syntax: rules of language
+
+
+BUG & DEBUG:
+
+> anything not exactly to desired outcome it means it has BUG.
+> process of fixing the BUG is DEBUGGING.
+
+DEBUGGING checklist:
+ 
+> HTML elements tag name
+> HTML elements closed properly or not
+> HTML attribute names and values
+> CSS property names and values
+> image element syntax
+> paragraph element syntax
+> heading element syntax
+
+TWEAKING the code: 
+
+Making small changes in the code to understand the software behaviour
+EX: changing colors, images, texts, etc.
+
+Key Takeaways:
+> Browser & URL - Must open any website
+> Syntax - Rules of the Language
+	~ It's a small part of programming
+> Bug & Debugging - Making your code work
+	~Second important part of programming
+> Tweaking Code - Getting insights of code

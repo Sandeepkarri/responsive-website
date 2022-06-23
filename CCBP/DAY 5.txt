@@ -1,0 +1,88 @@
+BOOTSTRAP is a large collection of predefined reusable code snippets written in HTML,CSS, and javascript.
+
+PRE-DEFINED STYLES IN BOOTSTRAP
+    
+_Button:
+
+    <button class="btn btn-primary">Get Started</button>
+    <button class="btn btn-secondary">Get Started</button>
+    <button class="btn btn-success">Get Started</button>
+    <button class="btn btn-danger">Get Started</button>
+    <button class="btn btn-warning">Get Started</button>
+    <button class="btn btn-info">Get Started</button>
+    <button class="btn btn-light">Get Started</button>
+    <button class="btn btn-dark">Get Started</button>
+
+
+    <button class="btn btn-outline-primary">Get Started</button>
+    <button class="btn btn-outline-secondary">Get Started</button>
+    <button class="btn btn-outline-success">Get Started</button>
+    <button class="btn btn-outline-danger">Get Started</button>
+    <button class="btn btn-outline-warning">Get Started</button>
+    <button class="btn btn-outline-info">Get Started</button>
+    <button class="btn btn-outline-light">Get Started</button>
+    <button class="btn btn-outline-dark">Get Started</button>
+
+_text colors:
+
+    <p class="text-primary">Tourism</p>
+    <p class="text-secondary">Tourism</p>
+    <p class="text-success">Tourism</p>
+    <p class="text-danger">Tourism</p>
+    <p class="text-warning">Tourism</p>
+    <p class="text-info">Tourism</p>
+    <p class="text-light">Tourism</p>
+    <p class="text-dark">Tourism</p>
+
+_text transform:
+
+    <p class="text-uppercase">Plan your TRIP.</p>
+    <p class="text-capitalize">plan your trip.</p>
+    <p class="text-lowercase">PLAN your TRIP.</p>
+
+_bgcolors:
+
+    <div class="bg-primary"><p>Tourism</p></div>
+    <div class="bg-secondary"><p>Tourism</p></div>
+    <div class="bg-success"><p>Tourism</p></div>
+    <div class="bg-danger"><p>Tourism</p></div>
+    <div class="bg-warning"><p>Tourism</p></div>
+    <div class="bg-info"><p>Tourism</p></div>
+    <div class="bg-light"><p>Tourism</p></div>
+    <div class="bg-dark"><p>Tourism</p></div>
+
+
+  <body>
+    <div class="bg-warning text-center">      		# pre-defined bgcolor for card
+      <h1 class="text-primary">Tourism</h1>
+      <p class="text-lowercase">PLAN your TRIP.</p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </body>
+
+.....................................................................................
+
+LAYOUT - FLEXBOX:
+
+LAYOUT is a pattern by which we structure the information and arrange the elements on the website.
+
+FLEXBOX is a layout element that helps to arrange the HTML elements horizontally and vertically.
+
+  	properties:  Flexbox Container - contains HTML elements to be arranged; called 						   flex items
+			 Direction		 - row column arrangement
+			 Justify Content	 - for flex direction in rows/columns
+						   justify-content-start ; justify-content-center ; 						   justify-content-end
+
+			 Align items
+			 Align Self
+			 Wrap
+			 Order
+			 Align Content
+
+>> MOVING CARD TO BOTTOM:
+
+syntax: <class = "bg-container d-flex flex-column justify-content-end">
+
+at container; d-flex is the class name to get flex container
+		  flex-column to specify the direction - vertically
+		  justify-content-end to move card to end 

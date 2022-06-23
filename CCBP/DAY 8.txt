@@ -1,0 +1,67 @@
+WEBSITE INTEGRATION :
+
+<script
+	type=" text/javascript"
+	src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui -kit.js">
+</script>
+
+This should be added just before body end tag for adding CCBP UI kit to webpage. 
+
+Display Utility: Reusable code snippet to display or hide Section Containers based on 		     user actions.
+
+
+<div id="section 1 ">
+	<p> This is sectiion One </p>
+	<button class="btn btn-primary" onclick= "display( 'section2 ') ">
+		Go to Section 2
+	</button>
+</div>
+
+<div id="section2">
+	<p>This is Section Two</p>
+	<button class="btn btn-primary" |onclick="display('section1 ') ">
+		Go to Section 1
+	</button>
+</div>
+
+>>> HTML id attribute is used to uniquelt identify HTML elements. It should be unique           
+    across the HTML element.
+
+>>> The onclick attribute is used to say what to happen when the button is clicked.
+			onclick = "display('section1')"
+ // The id which we specify to any section should always contain its prefix as section.
+
+INTEGRATING THE WEBSITE STEP BY STEP:
+
+1. Change the section name accordingly.
+2. Add HTML code of HOME section and css properties.
+3. repeat the step for FAVORITES PLACES and DETAILED VIEW.
+4. Add onclick attribute to HOME page button and the next.
+
+*>>> When using carousal multiple times for different sections in same html code, it may not work as expected this is due to the id it has from default code will be repeated multiple times in different sections. Since id has to be unique we need to change the default id to unique one.
+.......................................................................................
+
+HTML Lists:
+
+List is a way to group releated peices of information to understand easily.
+
+>> 2 types in HTML:
+			Unordered list
+			Ordered list
+
+
+>>> Unordered list :   <ul> list items </ul>
+	list items: each list item starts with <li> tag.
+	
+	-by default ul uses bullets, we can change it by styling in CSS.
+	
+		.unordered-list {
+			list-style-type: square/disc/none/circle;
+		}
+
+>>> Ordered list :	<ol> list itmes </ol>
+			- by default ol uses numbers.
+	styling: 
+		  	.ordered-list {
+			     list-style-type:upper-alpha/lower-alpha/lower-roman/upper-roman;
+			}

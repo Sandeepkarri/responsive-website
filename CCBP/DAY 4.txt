@@ -1,0 +1,91 @@
+applying 2 properties for all in one selector:
+
+.card {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.main-heading {
+    color: blue;
+}
+
+.paragraph {
+    color: grey;
+}
+
+......html code.....
+
+<body>
+    <div class = "card">
+      <h1 class = "main-heading">Tourism</h1>
+      <p class = "paragraph ">Plan your trip.</p>
+      <button>Get Started</button>
+    </div>
+
+
+text styling:
+
+font-family:"roboto";
+		 
+font-size:"14px";         # px means pixel
+
+font-style:"italic";
+
+font-weight:"bold"; 
+
+text-decoration:"underline" or "overline" or "line-through"  
+
+--->> CSS Box Model:
+
+applying height to container element:
+
+.card {
+    text-align: center;
+    background-color: lightblue;
+    height : 250px;
+    width : 250px;
+	 
+}
+
+>>adding background image:
+
+.card{
+	background-image: url("....");
+	background-size: cover;
+}
+
+>> Font weight: The CSS font-weight property specifies how thick or thin characters in text should be displayed.
+
+.main-heading {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.paragraph {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 200;
+  text-decoration: overline;
+}
+
+
+viewport: area visible to user, measuring unit denoted by vh; 1vh = 1% of 	    visible area
+
+
+>> BUTTON STYLING:
+
+.button {
+  border-width: 2px;
+  border-color: orange;
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: #25b1cc;
+
+>> padding: The CSS padding property specifies the space around the 			content of an HTML element.
+.card {
+  padding: 10px;
+}
+

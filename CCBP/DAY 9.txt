@@ -1,0 +1,50 @@
+The IP address is the unique addresss assigned to every device connected to the internet.
+
+The internet is a public global network of billions of computers and devices.
+
+sandeep.ccbp.tech 		# sandeep - sub domain
+					# ccbp - domain name
+					# tech - 
+
+Domain Name System (DNS) converts domain names to IP address.
+
+................................................................................
+
+HYPERLINKS: 
+
+>>> Hyperlinks are used to navigate to other web resources or to a specific element within     
+    the HTML document.
+
+>> HOW TO ADD HYPERLINK TO HTML?  --by using HTML anchor element
+   syntax: <a href = " url "> content </a>
+
+>> HOW TO MAKE LINK OPEN IN NEW TAB? -- using target attribute
+   syntax: <a href = " url " target = "_blank"> content </a>
+	
+# target = "_blank" -- this allows the link to open in new tab
+
+>> HOW TO NAVIGATE WITHIN SAME HTML DOCUMENT?
+   <a href = "URL#sectionid"> section </a>   #navigate to a section in the new website
+   <a href = "#sectionid"> section </a>	   #navigate to a section in the same website
+
+........................................................................................
+
+HOW TO ADD IMAGES TO WEBSITE TO GET URL? -- Sign into cloudinary
+
+>> go to media library 
+>> upload the images
+>> in options of that image - copy URL - link copied
+>> use the link to add to website
+
+DEVELOP STATIC WEBSITES ON DESKTOP?
+
+>> Install VS Code
+>> Create New Folder
+>> Open the Folder in VS Code
+>> Create New File here with .html extension
+>> Repeat the same with .CSS extension
+>> Add the code and save it
+>> Copy the path from .hmtl file and paste it browser to see the output
+
+>>> For the CSS to be applied to the html file in desktop add 
+    <link rel = "stylesheet" href = "filename.css"> to head element

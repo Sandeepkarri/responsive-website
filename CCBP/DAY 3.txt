@@ -1,0 +1,163 @@
+HTML syntax:
+
+1. Static website
+
+> Breaking down the code into parts
+
+<! DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		Your code goes here
+	</body>
+</html>
+
+~~~~ HEADDING IN HTML:
+
+HTML element = start tag + content + end tag
+
+heading - start tag  - <h1>
+	     end tag - </h1>	 
+
+------ example--------
+<! DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<h1> heading </h1>
+	</body>
+</html>
+
+
+~~~ PARAGRAPH ELEMENT IN HTML:
+
+start - <p>
+end - </p>
+
+------ example--------
+
+<! DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<h1> heading </h1>
+		<p> paragraph </p>
+	</body>
+</html>
+
+~~~ BUTTON ELEMENT IN HTML:
+
+start - <button>
+end - </button>
+
+------ example--------
+
+<! DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<h1> heading </h1>
+		<p> paragraph </p>
+		<button> button </button>
+	</body>
+</html>
+
+____________________________________________________________________
+
+CSS (Cascading Style Sheet)
+
+It is a list of rulesets.
+Each ruleset looks like:
+
+           selector {
+ruleset:   			property1: value1;
+				property1: value1;
+			   }
+
+~ first decide a suitable name for selector and use it.
+
+>>CSS Ruleset to center elements:
+
+.h-center {					# name given to selector by us
+		text-align: center;     #syntax - cannot be modified
+	    }
+
+
+
+Combining HTML code with CSS:
+
+with help of 'attribute' we can combine code.
+attributes provide additional information about the HTML element.
+
+
+HTML attribute:
+
+<tag attribute = "value"> content </tag>
+
+
+Attribute in each element:
+
+class attribute used to connect something already writtin in CSS to HTML
+
+<h1 class = "h-center"> Heading </h1>    		#here value is the name 
+								 we gave to selector in 							  	 CSS
+
+>> for every element repeat the same.....
+
+<p class = "h-center"> paragraph </p>
+<button class = "h-center"> button </button>
+
+To avoid this repetetive process and combine all together.
+
+--> group all the required elements as one.... how?... ~Using container
+
+Container element - div
+
+<div> Other elements </div>
+
+..........example............
+
+<! DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<div>
+			<h1> heading </h1>
+			<p> paragraph </p>
+			<button> button </button>
+		</div>
+	</body>
+</html>
+
+Add CSS to center elements to center
+
+>>> instead of writing multiple times by writing once in div element we can apply it to all in the div element
+
+<! DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<div class= "h-center">
+			<h1> heading </h1>
+			<p> paragraph </p>
+			<button> button </button>
+		</div>
+	</body>
+</html>
+
+_________________________________________________________________________
+
+Applying color to main heading:
+
+.main-heading{
+	color: blue;
+}
+
+applying background color:
+
+.card{
+	background-color: black
+}
+
+in html:-  <div class= "card"> ..... </div>
+

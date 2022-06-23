@@ -1,0 +1,41 @@
+DATE: 08-06-2022
+
+HTML images - Box properties :
+
+> Breakdown the code into small parts 
+
+-- adding image to html....
+
+2 ways :
+
+> html image - used when there is no content or elements to add on top of image
+  	syntax: <img src = "" />
+** elements which have only start tag are called void elements.
+
+for styling image : 
+	we can add multiple attributes seperated by the space for HTML element.
+	syntax: <img src = "" class = ""/>
+> CSS background image 
+
+ALIGNING THE ELEMENTS SIDE BY SIDE using bootstrap FLEXBOX.
+>> Make card container as a flex box
+>> specify direction
+
+#~ How to get spacing between cards?
+   MARGIN (CSS box property) - used to add space outside box {b/w 2 cards}
+
+
+>> Step by Step Process to develop a Favourite Place Detailed View Section Page
+	
+	Step-1: Add the Background Image and Heading
+	
+	Step-2:
+		Add a Detailed View Card
+		Add a Detailed View Card Container
+		Add the Bootstrap Carousel Code (FOR VIDEO ADD VIDEO EMBED BOOTSTRAP CODE)
+		Add the HTML src attributes for the HTML img element in the Carousel
+		Add a Detailed View Card Text Container
+		Add a Detailed View Card Heading
+		Add a Detailed View Card Description
+		Add the padding to the Card Text Container
+		Add the margin to the Card Container

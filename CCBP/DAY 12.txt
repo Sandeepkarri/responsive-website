@@ -1,0 +1,58 @@
+RESPONSIVE WEB DESIGN : It is an approach to make web page give best user experience in 					all devices.
+
+
+Bootstrap GRID System : A collection of reusable code snippets to create Responsive 					layouts.
+
+>>> To make websites responsive, Bootstrap categorised devices into FIVE responsive tiers,      
+    known as RESPONSIVE BREAKPOINTS.
+
+EXTRA SMALL DEVICES	< 576px
+SMALL DEVICES		>= 576px
+MEDIUM DEVICES		>= 768px
+LARGE DEVICES		>= 992px
+EXTRA LARGE DEVICES	>= 1200px
+
+>>> Bootstrap Grid system is made up of 3 things:
+    Container
+    Rows
+    Columns
+
+>>> It has CONTAINER inside which it has ROWS and COLUMNS within it
+
+>>> It uses 12 column system for layouting. -- entire screen size is divided into 12       
+    columns.
+
+We can specify number of columns our content should occupy in any device.
+
+The number of columns we specify should be any number in range of 1to 12.
+
+>> How to Create a Layout Using Bootstrap Grid System?
+   
+   A Container isadiv Element with a class name container.The purpose of the Container is to hold Rows and Columns
+
+A Row is a div Element with a class name row. The purpose of Row is to wrap all the Columns.
+
+A Column is a div Element with a class name col-*
+We place all our content inside this Column
+       
+
+<div class="container">
+  <div class="row">
+     <div class="col-12">
+       I'm your content inside the grid!
+     </div>
+  </div>
+</div>
+
+
+Add a number to col-*in class name to specify the number of Columns
+If class name is col-12 it will occupy entire width available inside the row.
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-4'>...</div>
+    <div class="col-4'>...</div>
+    <div class="col-4'>...</div>
+  </div>
+</div>
